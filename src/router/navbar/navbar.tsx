@@ -2,9 +2,12 @@
  import "./navbar.css"
 const Navbar = () => {
   return (
-    <div>
-        <div className='list1'>
-            CINNAMON
+    <div className="container">
+        <div className="heading">
+            <h1> CINNAMON</h1>
+        </div>
+        <div className='list-items'>
+           
             <ul>
                 <li>HOME</li>
                 <li>SERVICE</li>
@@ -12,9 +15,11 @@ const Navbar = () => {
                 <li>CAREER</li>
                 <li>Blog</li>
             </ul>
-
+          
         </div>
-      
+      <div className="button">
+        <button className="Contact-but"> Contact Us </button>
+      </div>
     </div>
   )
 }
