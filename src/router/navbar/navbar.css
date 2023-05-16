@@ -1,13 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 60px;
+    padding: 10px;
+    background-color:rgb(23, 21, 21) ;
    
 }
 
 .list-items ul {
+    display: flex;
     list-style: none;
    
 }
 
 .list-items ul li {
-    padding: 12px 4px;
+    padding: 12px 12px;
+}
+.Contact-but{
+    background-color: rgb(44, 142, 202);
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    color: white;
 }
