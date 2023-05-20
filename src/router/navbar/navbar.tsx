@@ -1,5 +1,5 @@
 
- import "./navbar.css"
+import "./navbar.css"
 const Navbar = () => {
   return (
     <div className="container">
